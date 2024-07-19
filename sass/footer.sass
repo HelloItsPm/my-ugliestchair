@@ -1,0 +1,51 @@
+.footer__container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 32px 128px
+    background-color: rgb(20, 20, 20)
+    margin-top: 16px
+    &_logo img
+        height: 80%
+        width: 80%
+    &_navigation , &_contact
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 16px
+        padding: 16px
+        &_text
+            color: rgb(235, 176, 66)
+            font-size: 20px
+            font-weight: bold
+    &_navigation_navbar
+        flex-grow: 1
+        &_nav-menu
+            list-style-type: none
+            margin: 0
+            padding: 0
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 8px
+            li
+                display: flex
+                flex-direction: column
+                a
+                    color: rgb(230, 230, 230)
+                    text-decoration: none
+                    padding: 10px 20px
+                    display: block
+                    &:hover
+                        background-color: transparent
+                        font-weight: bold
+    &_contact_info
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 16px
+        color: rgb(230, 230, 230)
+        &_adress
+            display: flex
+            flex-direction: column
+            align-items: center

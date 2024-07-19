@@ -1,0 +1,30 @@
+.headerContainer
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 16px 32px
+    background-color: transparent
+    margin-bottom: 16px
+    &__logo img
+        height: 50%
+        width: 50%
+    &__navbar
+        flex-grow: 1
+        display: flex
+        justify-content: flex-end
+        &_nav-menu
+            list-style-type: none
+            margin: 0
+            padding: 0
+            display: flex
+            gap: 20px
+            li
+                display: inline
+                a
+                    color: rgb(0, 0, 0)
+                    text-decoration: none
+                    padding: 10px 20px
+                    display: block
+                    &:hover
+                        background-color: transparent
+                        font-weight: bold
